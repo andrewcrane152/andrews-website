@@ -40,11 +40,13 @@ a {
 
 i:hover {
     font-size: 4.3em;
+    text-decoration: none;
 }
 
 a:hover,
 a:focus {
     color: rgba(265,265,265,1);
+    text-decoration: none;
 }
 
 .flex-icons a:hover {
@@ -506,6 +508,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .flex-icons {
+    min-height: 75px;
     display: flex;
     justify-content: space-around;
 }
