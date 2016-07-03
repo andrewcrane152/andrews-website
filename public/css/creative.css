@@ -600,3 +600,7 @@ h3.subheader{
     margin: 45px 0px 45px 0px;
     text-decoration: underline;
 }
+
+.fit {
+    max-width: 100% !important;
+}
