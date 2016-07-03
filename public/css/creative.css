@@ -298,6 +298,9 @@ header .header-content .header-content-inner p {
 }
 
 @media(max-width:767px) {
+    body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../img/header.jpg);
+    }
     .service-box img {
         display: none;
     }
