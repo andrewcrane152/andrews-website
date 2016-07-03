@@ -577,6 +577,9 @@ footer {
     padding: 25px 0px 25px 0px;
 }
 
+.contact i {
+    color: #3d80b9;
+}
 .contact:hover i {
     color: #3d80b9;
     font-size: 3em !important;
@@ -594,5 +597,6 @@ footer {
 }
 
 h3.subheader{
-    margin: 45px 0px 30px 0px;
+    margin: 45px 0px 45px 0px;
+    text-decoration: underline;
 }
