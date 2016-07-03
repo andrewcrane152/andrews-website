@@ -8,7 +8,7 @@ html,
 body {
     width: 100%;
     height: 100%;
-    background-image: url(../img/header.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.5)), url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -62,12 +62,17 @@ h5,
 h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     text-transform: uppercase;
+    line-height: 1.35em;
+    letter-spacing: 0.5px;
+    word-spacing: 2.5px;
 }
 
 p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
+    word-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .bg-primary {
@@ -547,8 +552,8 @@ body {
     color: black !important;
 }
 
-.contact {
-    background-color: rgba(100,100,100,.9);
+#contact {
+    background-color: rgba(0,0,0,0);
 }
 
 #services {
@@ -556,6 +561,10 @@ body {
     padding-bottom: 50px;
     background-color: rgba(30,30,30,.95);
     color: #ccc;
+}
+
+#resume {
+    background-color: #222;
 }
 
 .center {
