@@ -257,7 +257,7 @@ header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 1000px;
-        background-color: rgba(80,80,80,.95);
+        background-color: rgba(40,40,40,.95);
         padding-top: 7%;
         padding-bottom: 7%;
         /*border-radius: 5px;*/
@@ -284,9 +284,22 @@ header .header-content .header-content-inner p {
     max-width: 400px;
 }
 
+.service-box img {
+    max-height: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    min-width: 100px;
+}
+
 @media(min-width:992px) {
     .service-box {
         margin: 20px auto 0;
+    }
+}
+
+@media(max-width:767px) {
+    .service-box img {
+        display: none;
     }
 }
 
@@ -536,9 +549,10 @@ body {
 }
 
 #services {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: rgba(200,200,200,.8);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(30,30,30,.95);
+    color: #ccc;
 }
 
 .center {
